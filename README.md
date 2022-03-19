@@ -1,3 +1,46 @@
+<p>
+Despliegue:
+Despliegue utilizando xampp.
+1.	 Es necesario tener en el sistema operativo composer de manera global
+2.	 Tener instalado GIT
+3.	Contar con un entorno de desarrollo como Xamp, Wamp o Laragon
+
+Crear base de datos llamada inventario.
+
+Clonar el proyecto dentro de la carpeta C:\xampp\htdocs
+
+Git colne https://github.com/cesaralejandroramirezalcaraz/inventario.git
+
+Cuando guardas tu proyecto Laravel en un repositorio GIT, en el archivo .gitignore se excluye la carpeta vendor que es donde están las librerías que usa tu proyecto, es por eso que se debe correr en la terminal una instrucción que tome del archivo composer.json todas las referencias de las librerías que deben estar instaladas en tu proyecto.
+
+Ingresa desde la terminal a la carpeta de tu proyecto y escribe:
+composer install
+
+
+Este comando instalará todas las librerías que están declaradas para tu proyecto.
+Por seguridad el archivo .env está excluido del repositorio, para generar uno nuevo se toma como plantilla el archivo .env.example para copiar este archivo en una nuevo escribe en tu terminal:
+cp .env.example .env
+
+Para que tu proyecto en Laravel corra sin problemas es necesario generar una key de seguirdad, para ello en tu terminal corre el siguiente comando:
+php artisan key:generate
+Esta key nueva se agregará a tu archivo .env
+
+Desde la terminal ingresar a la carpeta inventario y ejecutar
+  php artisan migrate
+ para migrar la base de datos.
+Se dejo el auth por defecto de laravel para poder probar el sistema.
+
+
+</p>
+
+
+
+
+
+
+
+
+
 <p align="center"><img src="https://res.cloudinary.com/dtfbvvkyp/image/upload/v1566331377/laravel-logolockup-cmyk-red.svg" width="400"></p>
 
 <p align="center">
