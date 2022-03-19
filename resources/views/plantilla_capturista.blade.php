@@ -28,18 +28,19 @@
         <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
 
             <!-- Sidebar - Brand -->
-            <a class="sidebar-brand d-flex align-items-center justify-content-center" href="{{url('/verificar_perfil')}}">
+            <a class="sidebar-brand d-flex align-items-center justify-content-center"
+                href="{{ url('/verificar_perfil') }}">
                 <div class="sidebar-brand-icon rotate-n-15">
 
                 </div>
                 <div class="sidebar-brand-text mx-3">Capturiasta</div>
             </a>
-            
+
             <!-- divición -->
             <hr class="sidebar-divider my-0">
 
             <li class="nav-item active">
-                <a class="nav-link" href="{{url('/registro')}}">
+                <a class="nav-link" href="{{ url('/registro') }}">
                     <i class="fas fa-keyboard"></i>
                     <span>registro</span></a>
             </li>
@@ -94,6 +95,64 @@
         </div>
     </div>
 
+
+
+    <!-- Footer -->
+    <footer class="page-footer font-small blue pt-4" style="background-color: rgb(188, 188, 223)">
+
+        <!-- Footer Links -->
+        <div class="container-fluid text-center text-md-left">
+
+            <!-- Grid row -->
+            <div class="row">
+
+                <!-- Grid column -->
+                <div class="col-md-6 mt-md-0 mt-3">
+
+                    <!-- Content -->
+
+
+                </div>
+                <!-- Grid column -->
+
+                <hr class="clearfix w-100 d-md-none pb-3">
+
+                <!-- Grid column -->
+                <div class="col-md-3 mb-md-0 mb-3">
+
+                    <!-- Links -->
+                    <h5 class="text-uppercase"></h5>
+
+
+
+                </div>
+                <!-- Grid column -->
+
+                <!-- Grid column -->
+                <div class="col-md-3 mb-md-0 mb-3">
+
+                    <!-- Links -->
+                    <h5 class="text-uppercase"></h5>
+
+
+
+                </div>
+                <!-- Grid column -->
+
+            </div>
+            <!-- Grid row -->
+
+        </div>
+        <!-- Footer Links -->
+
+        <!-- Copyright -->
+        <div class="footer-copyright text-center py-3">2022
+            <a href="https://github.com/cesaralejandroramirezalcaraz">Cesar Alejandro Ramirez Alcaraz</a>
+        </div>
+        <!-- Copyright -->
+
+    </footer>
+    <!-- Footer -->
     <!-- Bootstrap core JavaScript-->
 
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
