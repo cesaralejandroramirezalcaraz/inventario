@@ -1,9 +1,9 @@
 <p>
 Despliegue:
 Despliegue utilizando xampp.
-1.	 Es necesario tener en el sistema operativo composer de manera global
-2.	 Tener instalado GIT
-3.	Contar con un entorno de desarrollo como Xamp, Wamp o Laragon
+1.	 Es necesario tener en el sistema operativo composer de manera global.
+2.	 Tener instalado GIT.
+3.	Contar con un entorno de desarrollo como Xamp, Wamp o Laragon.
 
 Crear base de datos llamada inventario.
 
